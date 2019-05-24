@@ -1,0 +1,17 @@
+SELECT
+    CITY,
+    LENGTH(CITY) AS cityLength
+FROM
+    STATION
+ORDER BY
+    cityLength, CITY
+LIMIT 1;
+
+SELECT
+    CITY,
+    LENGTH(CITY) AS cityLength
+FROM
+    STATION
+ORDER BY
+    cityLength DESC, CITY
+LIMIT 1;
